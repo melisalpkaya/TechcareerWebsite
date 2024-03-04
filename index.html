@@ -4,8 +4,285 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techcareer.net</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+    <header>
+        <div>
+            <img id="logo" src="https://www.techcareer.net/assets/images/common/techcareer-logo.svg" alt="Logo">
+        </div>
+        <div class="search-bar">
+            <form action="">
+                <input type="text" placeholder="Etkinlik, İş İlanı veya Blog Ara" name="search">
+            </form>
+        </div>
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn">Etkinlikler</button>
+                <div class="dropdown-content">
+                  <a href="#">Bootcamp</a>
+                  <a href="#">Hackathon</a>
+                  <a href="#">Hiring Challenge</a>
+                  <a href="#">Tüm Etkinlikler</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">İş İlanları</button>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Komünite</button>
+                <div class="dropdown-content">
+                  <a href="#">Komüniteye Katıl</a>
+                  <a href="#">Podcast
+                  </a>
+                  <a href="#">Blog</a>
+                  <a href="#">Kariyer Rehberi</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Şirketler</button>
+            </div>
+    </div>
+        <button id="login-btn">Giriş / Üye Ol</button>
+    </header>
+    <main>
+    <div class="slider"> 
+        <h3>slider gelecek</h3>
+    </div>
+    <div class="sliderTwo"> 
+        <h3>slider gelecek</h3>
+    </div>
+    <div id="activity">Başvurunu Bekleyen Etkinlikler</div>   <br>
+<ul class="cards">
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image">
+            <img src="https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2F1200x628_4_e635de5943%2F1200x628_4_e635de5943.png&w=750&q=75" >
+            
+        </div>
+        <div class="card__content">
+          <div class="card__title">QA Quality Assurance Specialist Bootcamp</div>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam labore unde sunt placeat laborum, voluptatum cupiditate culpa repellendus recusandae, commodi et. Consequatur voluptatem eligendi iusto laboriosam aspernatur modi a deleniti. </p>
+          <button class="card__btn">Başvur</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image">
+            <img src="https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2FKtue_1200x628_eabf7bcf99%2FKtue_1200x628_eabf7bcf99.png&w=750&q=75" > 
+        </div>
+        <div class="card__content">
+          <div class="card__title">KTÜ Endüstri Mühendisliği Kulübü GEN'24 Etkinliği
+          </div>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vitae qui dignissimos nulla, aliquid optio quidem aspernatur voluptatibus numquam quis quasi enim maiores tenetur sed, et aperiam distinctio saepe odio.</p>
+          <button class="card__btn">Başvur</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image">
+            <img src="https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2F1080x1080_7_b6b449dce1%2F1080x1080_7_b6b449dce1.png&w=750&q=75" >
+            
+        </div>
+        <div class="card__content">
+          <div class="card__title">İYTE İş Birliğiyle Java Bootcamp </div>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti odio deleniti nisi dolores expedita, reprehenderit, saepe aspernatur voluptatem earum fugiat mollitia corporis exercitationem beatae quam soluta, animi similique adipisci necessitatibus.</p>
+          <button class="card__btn">Başvur</button>
+        </div>
+      </div>
+    </li>
+    
+  </ul>
+  <div class="activityBtnClass">
+    <button id="activityBtn">Tüm Etkinlikleri Gör</button></div>   
+    <div class="whyContainer">
+        <div id="why">Neden Techcareer.net?  </div>  
+        <ul class="cards">
+            <li class="cards__item2">
+              <div>
+                <div class="card__image">
+                    <img src="https://www.techcareer.net/assets/images/infobar/why-tcn-icon1.svg" >
+                    
+                </div>
+                <div class="card__content">
+                  <div class="card__title">Ücretsiz etkinliklere katıl</div>
+                  <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam labore unde sunt placeat laborum, voluptatum cupiditate culpa repellendus recusandae, commodi et. Consequatur voluptatem eligendi iusto laboriosam aspernatur modi a deleniti. </p>
+                  
+                </div>
+              </div>
+            </li>
+            <li class="cards__item2">
+              <div>
+                <div class="card__image">
+                    <img src="https://www.techcareer.net/assets/images/infobar/why-tcn-icon2.svg" > 
+                </div>
+                <div class="card__content">
+                  <div class="card__title">Kendini kanıtla
+                  </div>
+                  <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vitae qui dignissimos nulla, aliquid optio quidem aspernatur voluptatibus numquam quis quasi enim maiores tenetur sed, et aperiam distinctio saepe odio.</p>
+                 
+                </div>
+              </div>
+            </li>
+            <li class="cards__item2">
+              <div>
+                <div class="card__image">
+                    <img src="https://www.techcareer.net/assets/images/infobar/why-tcn-icon3.svg" >
+                    
+                </div>
+                <div class="card__content">
+                  <div class="card__title">İş fırsatı yakala</div>
+                  <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti odio deleniti nisi dolores expedita, reprehenderit, saepe aspernatur voluptatem earum fugiat mollitia corporis exercitationem beatae quam soluta, animi similique adipisci necessitatibus.</p>
+            
+                </div>
+              </div>
+            </li>
+            
+          </ul>
+    </div>
+    <div class="containerFour">
+        <div class="text-container">
+        <h1>Kariyer Rehberi’yle Geliş</h1>
+        <h2 style="color:rgb(0, 194, 109)">Yeni teknoloji kariyerini seçmeye hazır mısın?</h2>
+        <p>Teknoloji alanında kariyer yapmak istiyor ancak hangi pozisyonu seçeceğini veya seçtiğin pozisyonda hangi adımlardan geçmen gerektiğini bilmiyorsan, Kariyer Rehberi ile en doğru yerdesin!</p>
+        <button class="card__btn">Hemen İncele</button></div>
+        <div class="image-container">
+            <img src="https://www.techcareer.net/assets/images/infobar/why-tcn-icon3.svg" alt="">
+        </div>
+    </div>
+    <div class="sliderThree"> 
+        <h1 class="text-container">Bizi Katılımcılarımızdan Dinle</h1>
+        <h3>Slider gelecek</h3>
+    </div>
+    <div class="whyContainer">
+        <ul class="cards">
+            <li class="cards__item2">
+              <div>
+                <div class="card__image">
+                    <img src="https://www.techcareer.net/assets/images/eventsbar/eventsbar-bootcamp.svg" >    
+                </div>
+                <div class="card__content">
+                  <div class="card__title">Bootcamp</div>
+                  <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam labore unde sunt placeat laborum, voluptatum cupiditate culpa repellendus recusandae, commodi et. Consequatur voluptatem eligendi iusto laboriosam aspernatur modi a deleniti. </p>
+                  <a href="#" class="link-container">
+                    <span class="link-text">Hemen Başvur!</span>
+                    <span class="emoji">➡️</span>
+                </a>
+                  
+                </div>
+              </div>
+            </li>
+            <li class="cards__item2">
+              <div>
+                <div class="card__image">
+                    <img src="https://www.techcareer.net/assets/images/eventsbar/eventsbar-hackathon.svg" > 
+                </div>
+                <div class="card__content">
+                  <div class="card__title">Hackathon
+                  </div>
+                  <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vitae qui dignissimos nulla, aliquid optio quidem aspernatur voluptatibus numquam quis quasi enim maiores tenetur sed, et aperiam distinctio saepe odio.</p>
+                  <a href="#" class="link-container">
+                    <span class="link-text">Hemen Başvur!</span>
+                    <span class="emoji">➡️</span>
+                </a>
+                </div>
+              </div>
+            </li>
+            <li class="cards__item2">
+              <div>
+                <div class="card__image">
+                    <img src="https://www.techcareer.net/assets/images/eventsbar/eventsbar-hiring.svg" >
+                    
+                </div>
+                <div class="card__content">
+                  <div class="card__title">Hiring Challenge</div>
+                  <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti odio deleniti nisi dolores expedita, reprehenderit, saepe aspernatur voluptatem earum fugiat mollitia corporis exercitationem beatae quam soluta, animi similique adipisci necessitatibus.</p>
+                  <a href="#" class="link-container">
+                    <span class="link-text">Hemen Başvur!</span>
+                    <span class="emoji">➡️</span>
+                </a>
+                </div>
+              </div>
+            </li>
+            
+          </ul>
+          
+    </div>
+    <div class="containerFive">
+        <div class="text-container-five">
+        <h1>Şirketiniz için Teknoloji yeteneği mi arıyorsunuz?</h1>
+        <p >Birlikte etkinlik düzenlemek ve size ulaşmamız için şirket e-mail adresinizi girin! 🚀</p>
+        <div class="search-bar-five">
+            <form action="">
+                <input type="text" placeholder="şirket e-mail adresiniz" name="search" style="border: none; width: 200px; padding: 5px;">   
+                <button type="submit" class="search-button">Ara</button>
+            </form>
+        </div>
+        <h4 style="color:rgb(0, 194, 109)">Tüm soru ve önerileriniz için;</h4>
+        <p>hello@techcareer.net | 0216 468 76 00</p> 
+    </div>
+  </main>
+    <footer class="footer">
+          <div class="footer-content">
+              <div class="footer-section">
+                  <h4>TECHCAREER</h4>
+                  <ul>
+                      <li><a href="#">Hakkımızda</a></li>
+                      <li><a href="#">Etkinlikler</a></li>
+                      <li><a href="#">Şirketler İçin</a></li>
+                      <li><a href="#">Eğitmen Ol</a></li>
+                      <li><a href="#">İş Birliği</a></li>
+                      <li><a href="#">İletişim</a></li>
+                  </ul>
+              </div>
+              <div class="footer-section">
+                  <h4>BAŞVUR</h4>
+                  <ul>
+                      <li><a href="#">Bootcamp</a></li>
+                      <li><a href="#">Hackathon</a></li>
+                      <li><a href="#">Hiring Challenge</a></li>
+                      <li><a href="#">İş İlanları</a></li>
+                  </ul>
+              </div>
+              <div class="footer-section">
+                  <h4>SENİN İÇİN</h4>
+                  <ul>
+                      <li><a href="#">Komünite</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Podcast</a></li>
+                      <li><a href="#">Kariyer Rehberi</a></li>
+                  </ul>
+              </div>
+              <div class="footer-section">
+            
+                  <h4>SOSYAL MEDYA</h4>
+        <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+              </div>
+              <div class="footer-logo">
+                <img src="https://www.techcareer.net/assets/images/common/techcareer-logo.svg" alt="Techcareer.net Logo">
+                <p>Türkiye’nin teknoloji kariyeri platformu</p>
+
+            </div>
+          </div>
+          
+      </footer>
+
+  
+
+    
+
     
 </body>
+
 </html>
